@@ -35,6 +35,7 @@ function merge(arr1,arr2)
     // which means we never get into position to add other arrray
     // we use an and as we want both conditions to be true otherwise we quit
     // i was using || before which means we did not exit this while loop when one array was finished and it messed up the whole thing.
+    // as soon as ONE array is out of bounds we stop and push the other array depending which one
 
     while (counter1 < arr1.length && counter2 < arr2.length)
     {
