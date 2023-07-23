@@ -56,6 +56,9 @@ function merge(arr1,arr2)
     // at this point we have finished one of the two arrays, loops below
     // will handle adding the rest of the elements from the respective array
 
+    // loop over whatever array is best 
+    
+    
     while (counter1 < arr1.length)
     {
         merged.push(arr1[counter1])
