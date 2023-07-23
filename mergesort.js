@@ -59,6 +59,7 @@ function merge(arr1,arr2)
     while (counter1 < arr1.length)
     {
         merged.push(arr1[counter1])
+        // increment the counter after each push..
         counter1++
     }
     while (counter2 < arr2.length)
